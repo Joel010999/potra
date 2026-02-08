@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante La Potra | Parrilla y Tradición Colombiana</title>
+    <meta name="description"
+        content="Restaurante La Potra - El mejor restaurante de parrilla y cocina típica colombiana en Barranquilla. Reserva tu mesa ahora.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">La Potra</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#menu" class="nav-link">Menú</a></li>
+                <li><a href="#sedes" class="nav-link">Sedes</a></li>
+                <li><a href="#reservas" class="nav-link nav-cta">Reservar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">Sabor y Tradición en su Máxima Expresión</h1>
+            <p class="hero-subtitle animate-fade-up delay-1">Parrilla y cocina típica colombiana</p>
+            <div class="hero-ctas animate-fade-up delay-2">
+                <a href="#reservas" class="btn btn-primary">Reserva Ahora</a>
+                <a href="#menu" class="btn btn-secondary">Ver Menú</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- SECTION 2: BRAND VALUE / ESSENCE -->
+    <section class="brand-values" id="nosotros">
+        <div class="container">
+            <div class="values-grid">
+                <div class="value-card reveal">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32 8C32 8 16 20 16 36C16 44 23 52 32 52C41 52 48 44 48 36C48 20 32 8 32 8Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M32 20C32 20 24 28 24 36C24 40 27.5 44 32 44C36.5 44 40 40 40 36C40 28 32 20 32 20Z"
+                                fill="currentColor" opacity="0.3" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Pasión por la Parrilla</h3>
+                    <p class="value-text">El arte del fuego y la técnica perfecta se combinan para ofrecer cortes de
+                        primera calidad, asados a la perfección con el sabor auténtico del carbón.</p>
+                </div>
+                <div class="value-card reveal">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2" />
+                            <path d="M32 16V32L42 42" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <circle cx="32" cy="32" r="4" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Tradición Colombiana</h3>
+                    <p class="value-text">Recetas heredadas de generación en generación, ingredientes autóctonos y el
+                        sabor inconfundible de nuestra tierra que nos define.</p>
+                </div>
+                <div class="value-card reveal">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 48L16 24H48L56 48H8Z" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M20 24V16C20 12 24 8 32 8C40 8 44 12 44 16V24" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" />
+                            <circle cx="32" cy="36" r="6" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Ambiente Familiar y Elegante</h3>
+                    <p class="value-text">Un espacio cálido donde las familias se reúnen para compartir momentos
+                        inolvidables en un ambiente premium y acogedor.</p>
+                </div>
+            </div>
+            <div class="brand-quote reveal">
+                <blockquote>"El lugar donde se vive la verdadera tradición."</blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: FEATURED MENU -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Nuestra Carta</span>
+                <h2 class="section-title">Menú Destacado</h2>
+                <p class="section-subtitle">Los sabores más auténticos de la parrilla colombiana</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-category reveal">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop"
+                            alt="Hamburguesas gourmet" loading="lazy">
+                        <div class="menu-image-overlay"></div>
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-category-title">Hamburguesas</h3>
+                        <p class="menu-category-desc">Jugosas hamburguesas artesanales con carne 100% de res, preparadas
+                            al carbón con ingredientes frescos y salsas caseras.</p>
+                    </div>
+                </div>
+                <div class="menu-category reveal">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop"
+                            alt="Cortes de carne premium" loading="lazy">
+                        <div class="menu-image-overlay"></div>
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-category-title">Cortes de Carne</h3>
+                        <p class="menu-category-desc">Selectos cortes de res madurados y asados a la perfección.
+                            Churrasco, punta de anca, lomo y más, servidos con guarniciones tradicionales.</p>
+                    </div>
+                </div>
+                <div class="menu-category reveal">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=600&h=400&fit=crop"
+                            alt="Bandeja Paisa tradicional" loading="lazy">
+                        <div class="menu-image-overlay"></div>
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-category-title">Bandeja Paisa</h3>
+                        <p class="menu-category-desc">El plato emblema de Colombia. Frijoles, arroz, carne molida,
+                            chicharrón, huevo frito, plátano maduro, arepa y aguacate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-cta reveal">
+                <a href="#" class="btn btn-outline">Ver Menú Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: LOCATIONS -->
+    <section class="locations-section" id="sedes">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Encuéntranos</span>
+                <h2 class="section-title">Nuestras Sedes</h2>
+                <p class="section-subtitle">Dos ubicaciones estratégicas para servirte mejor</p>
+            </div>
+            <div class="locations-grid">
+                <div class="location-card reveal">
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=350&fit=crop"
+                            alt="Sede Principal La Potra" loading="lazy">
+                        <div class="location-badge">Sede Principal</div>
+                    </div>
+                    <div class="location-info">
+                        <h3 class="location-name">Sede Principal</h3>
+                        <p class="location-address">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            Cra 70 #84-103, Barranquilla
+                        </p>
+                        <a href="https://maps.google.com/?q=Cra+70+84-103+Barranquilla" target="_blank" rel="noopener"
+                            class="btn btn-location">
+                            Ver en el Mapa
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="location-card reveal">
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=350&fit=crop"
+                            alt="Sede Norte La Potra" loading="lazy">
+                        <div class="location-badge">Sede Norte</div>
+                    </div>
+                    <div class="location-info">
+                        <h3 class="location-name">Sede Norte</h3>
+                        <p class="location-address">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            Cl 98 #55-30, Barranquilla
+                        </p>
+                        <a href="https://maps.google.com/?q=Cl+98+55-30+Barranquilla" target="_blank" rel="noopener"
+                            class="btn btn-location">
+                            Ver en el Mapa
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: RESERVATIONS -->
+    <section class="reservations-section" id="reservas">
+        <div class="reservations-overlay"></div>
+        <div class="container">
+            <div class="reservations-content">
+                <div class="reservations-info reveal">
+                    <span class="section-label">Experiencia Única</span>
+                    <h2 class="section-title">Reserva tu Mesa</h2>
+                    <p class="reservations-subtitle">Vive una experiencia inolvidable con los mejores sabores de la
+                        parrilla colombiana.</p>
+                    <div class="contact-info">
+                        <a href="tel:+573001234567" class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                            +57 300 123 4567
+                        </a>
+                        <a href="https://wa.me/573001234567" target="_blank" rel="noopener"
+                            class="contact-item whatsapp">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <form class="reservation-form reveal" id="reservationForm">
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+57 300 000 0000">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Fecha</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Hora</label>
+                            <select id="time" name="time" required>
+                                <option value="">Seleccionar</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="13:00">1:00 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="19:00">7:00 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                                <option value="21:00">9:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Número de personas</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Seleccionar</option>
+                            <option value="1">1 persona</option>
+                            <option value="2">2 personas</option>
+                            <option value="3">3 personas</option>
+                            <option value="4">4 personas</option>
+                            <option value="5">5 personas</option>
+                            <option value="6+">6 o más</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Confirmar Reserva</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">La Potra</span>
+                    <p class="footer-tagline">Tradición, sabor y parrilla colombiana</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://instagram.com/restaurantelapotra" target="_blank" rel="noopener"
+                        class="social-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Created by RenderByte | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Toast -->
+    <div class="toast" id="toast">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+        </svg>
+        <span>¡Reserva enviada exitosamente!</span>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/573046795093" target="_blank" rel="noopener" class="whatsapp-float"
+        aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
